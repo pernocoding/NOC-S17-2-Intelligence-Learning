@@ -13,7 +13,7 @@ function setup() {
   tree = new Tree();
 
   // Add ten random values
-  for (var i = 0; i < 10; i++) {
+  for (var i = 0; i < 100; i++) {
     tree.addValue(floor(random(0, 100)));
   }
 
